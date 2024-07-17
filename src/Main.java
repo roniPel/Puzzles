@@ -3,7 +3,7 @@ import Puzzle2.Solution2;
 
 public class Main {
     public static void main(String[] args) {
-        TestPuzzle1();
+//        TestPuzzle1();
         TestPuzzle2();
 
     }
@@ -12,6 +12,8 @@ public class Main {
         Solution2 solution2 = new Solution2();
         solution2.testSolution2(2,3, new int[][]{{0, 0, 1}, {1, 0, 1}} );
         solution2.testSolution2(2,2, new int[][]{{1,1},{1,1}} );
+        solution2.testSolution2(3,1, new int[][]{{0, 0,1},{1, 1,1}} );
+        solution2.testSolution2(4,-1, new int[][]{{0, 1, 1, 1, 0},{}} );
     }
     private static void TestPuzzle1(){
         Solution1 solution1 = new Solution1();
