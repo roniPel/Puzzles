@@ -1,11 +1,20 @@
 import Puzzle1.Solution1;
 import Puzzle2.Solution2;
+import Puzzle4.Solution4;
 
 public class Main {
     public static void main(String[] args) {
 //        TestPuzzle1();
-        TestPuzzle2();
+//        TestPuzzle2();
+        TestPuzzle4();
 
+    }
+
+    private static void TestPuzzle4(){
+        Solution4 solution4 = new Solution4();
+        solution4.testSolution4("III");     // 3
+        solution4.testSolution4("LVIII");   // 58
+        solution4.testSolution4("MCMXCIV"); // 1994
     }
 
     private static void TestPuzzle2(){
